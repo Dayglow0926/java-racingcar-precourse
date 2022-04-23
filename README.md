@@ -19,16 +19,11 @@
 - 유저는 몇 번의 이동을 할 것 인지 횟수를 입력
 - 유저는 각 자동차에 이름을 부여
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a5b71327-5bb0-4d73-a67c-dd256754167e/Untitled.png)
-
 - 전진하는 자동차를 출력 할 때 자동차 이름을 같이 출력
 - 전진하는 조건은 0~9 까지 랜덤값을 구한 후 4이상일 경우 전진 3이하 일 경우 멈춘다.
 - 자동차 경주 완료 후 누가 우승했는지 알려준다.
 - 사용자가 잘못된 값을 입력할 경우 IllegalArgumentException 발생시키고 [ ERROR ] 로 시작하는 에러 메시지를 출력 후 그 부분부터 입력을 다시 받는다.
 - Exception이 아닌 IllegalArgumentException , IllegalStateException 등 같은 명확한 유형을 처리
-
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77ddeb70-55d4-42c0-b09e-79154e0d715f/Untitled.png)
-
 
 - 일급 컬렉션 사용하기
 - 모든 원시값과 문자열을 포장한다.
